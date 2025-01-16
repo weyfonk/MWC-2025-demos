@@ -4,6 +4,6 @@ metadata:
   name: downstream-node
   namespace: default
   labels:
-    bootMACAddress: aa:aa:aa:bb:00:00
-    address: redfish-virtualmedia+http://192.168.122.1:8000/redfish/v1/Systems/123e4567-e89b-12d3-a456-000000000000
+    bootMACAddress: aa_aa_aa_bb_00_00
+    address: Systems_123e4567-e89b-12d3-a456-000000000000
     credentialsName: downstream-node-0

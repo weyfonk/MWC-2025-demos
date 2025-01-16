@@ -6,8 +6,8 @@ metadata:
   labels:
     cluster-role: control-plane
     online: true
-    bootMACAddress: 00:00:00:00:00:00
-    address: redfish-virtualmedia+http://192.168.122.1:8000/redfish/v1/Systems/REPLACE
+    bootMACAddress: 00_00_00_00_00_00
+    address: Systems_REPLACE
     disableCertificateVerification: true
     credentialsName: REPLACE
 type: Opaque
