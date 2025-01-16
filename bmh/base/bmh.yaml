@@ -5,12 +5,12 @@ metadata:
   namespace: default
   labels:
     cluster-role: control-plane
+    online: true
+    bootMACAddress: 00:00:00:00:00:00
+    address: redfish-virtualmedia+http://192.168.122.1:8000/redfish/v1/Systems/REPLACE
+    disableCertificateVerification: true
+    credentialsName: REPLACE
 type: Opaque
 data:
   username: YWRtaW4=
   password: YWRtaW4=
-  online: true
-  bootMACAddress: 00:00:00:00:00:00
-  address: redfish-virtualmedia+http://192.168.122.1:8000/redfish/v1/Systems/REPLACE
-  disableCertificateVerification: true
-  credentialsName: REPLACE
